@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import bookResult from "./book-result";
+import BookResult from "./book-result";
 
 class resultList extends Component {
 
@@ -8,7 +8,7 @@ class resultList extends Component {
         console.log("Props", this.props.bookState)
         return (
             this.props.bookState.map((book) => (
-            <bookResult 
+            <BookResult 
             key={book.id}
             id={book.id}
             title={book.volumeInfo.title}
