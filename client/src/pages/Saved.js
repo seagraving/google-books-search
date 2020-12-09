@@ -53,7 +53,7 @@ class savedPage extends Component {
                     >
                     </SavedList>
                 ) : (
-                    <h5>"No results to display (yet!)"</h5>
+                    <h5>No results to display. T-T </h5>
                 )}
                 </Container>
             </div>
