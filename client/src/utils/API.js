@@ -13,10 +13,10 @@ export default {
     getBooks: function() {
         return axios.get("/api/books");
     },
-    // Gets book with the given ID
-    getBook: function(id) {
-        return axios.get("/api/books/" + id);
-    },
+    // // Gets book with the given ID
+    // getBook: function(id) {
+    //     return axios.get("/api/books/" + id);
+    // },
     // Deletes book with the given ID
     deleteBook: function(id) {
         return axios.delete("/api/books/" + id);
