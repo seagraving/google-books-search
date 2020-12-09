@@ -7,8 +7,7 @@ router.route("/").get(bookController.getBooks)
 
 // in order to add/delete books to the database, match with :id
 router.route("/:id").delete(bookController.deleteBooks)
-                .get(bookController.getBooks)
-                .delete(bookController.deleteBooks)
+
 
 
 
